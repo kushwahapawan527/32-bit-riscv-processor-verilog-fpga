@@ -35,6 +35,14 @@ The processor consists of the following main modules:
 
 ---
 
+## 📊 Output (Simulation Results)
+
+### 🔹 ALU Output
+![ALU Output](results/alu_output.png)
+
+### 🔹 CPU Output
+![CPU Output](results/cpu_output.png)
+
 ## ▶️ How to Run
 ```bash
 # Compile
@@ -46,9 +54,3 @@ vvp a.out
 # View waveform
 gtkwave *.vcd
 
-## 📊 Output
-### ALU Output
-![ALU](results/alu_output.png)
-
-### CPU Output
-![CPU](results/cpu_output.png)
