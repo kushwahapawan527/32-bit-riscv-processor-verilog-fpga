@@ -36,7 +36,6 @@ The processor consists of the following main modules:
 ---
 
 ## ▶️ How to Run
-
 ```bash
 # Compile
 iverilog src/*.v testbench/*.v
