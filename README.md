@@ -36,10 +36,8 @@ The processor consists of the following main modules:
 ---
 
 ## 📊 Output (Simulation Results)
-
 ### 🔹 ALU Output
 ![ALU Output](results/alu_output.png)
-
 ### 🔹 CPU Output
 ![CPU Output](results/cpu_output.png)
 
@@ -47,10 +45,8 @@ The processor consists of the following main modules:
 ```bash
 # Compile
 iverilog src/*.v testbench/*.v
-
 # Run simulation
 vvp a.out
-
 # View waveform
 gtkwave *.vcd
 
