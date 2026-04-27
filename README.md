@@ -46,3 +46,10 @@ vvp a.out
 
 # View waveform
 gtkwave *.vcd
+
+## 📊 Output
+### ALU Output
+![ALU](results/alu_output.png)
+
+### CPU Output
+![CPU](results/cpu_output.png)
